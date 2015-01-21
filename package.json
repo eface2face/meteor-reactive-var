@@ -1,5 +1,6 @@
 {
   "name": "meteor-reactive-var",
+  "repository": { "type": "git", "url": "https://github.com/eface2face/meteor-reactive-var" },
   "version": "1.0.0",
   "description": "",
   "main": "reactive-var.js",
