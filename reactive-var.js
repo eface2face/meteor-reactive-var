@@ -1,4 +1,5 @@
 var ReactiveVar;
+var Tracker = require("meteor-tracker");
 /*
  * ## [new] ReactiveVar(initialValue, [equalsFunc])
  *
