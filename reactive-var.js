@@ -1,5 +1,6 @@
+module.exports = function(Meteor) {
+var Tracker = Meteor.Tracker;
 var ReactiveVar;
-var Tracker = require("meteor-tracker");
 /*
  * ## [new] ReactiveVar(initialValue, [equalsFunc])
  *
@@ -96,4 +97,5 @@ ReactiveVar.prototype._numListeners = function() {
     count++;
   return count;
 };
-module.exports = ReactiveVar;
+  Meteor.ReactiveVar = ReactiveVar;
+};
