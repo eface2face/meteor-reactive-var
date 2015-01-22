@@ -1,3 +1,4 @@
+var ReactiveVar;
 /*
  * ## [new] ReactiveVar(initialValue, [equalsFunc])
  *
